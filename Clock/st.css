@@ -1,0 +1,59 @@
+.top{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.disp{
+    display: block;
+    text-align: center;
+}
+.tim{
+    display: inline-block;
+    align-items: center;
+    font-size: 50px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid black;
+}
+
+#cntrl{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 6px solid rgb(105, 67, 11);
+    border-radius: 45px;
+    padding: 1px;
+}
+#pl{
+    font-size: 45px;
+    display: inline-block;
+    align-items: center;
+    background-color: lightgreen;
+    border-radius: 50px;
+    padding-top: 0px;
+}
+#st{
+    font-size: 45px;
+    display: inline-block;
+    align-items: center;
+    background-color: red;
+    border-radius: 50px;
+}
+#rs{
+    font-size: 45px;
+    display: inline-block;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+#cntrl button:hover{
+    background-color: aliceblue;
+    color: black;
+}
